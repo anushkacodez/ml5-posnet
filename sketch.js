@@ -51,7 +51,7 @@ function draw()
             
             line(skeleton[j][0].position.x,skeleton[j][0].position.y,skeleton[j][1].position.x,skeleton[j][1].position.y);
         }
-        image(img, singlePose.nose.x-100, singlePose.nose.y-130,200,200);
+        //image(img, singlePose.nose.x-100, singlePose.nose.y-130,200,200);
     }
     
 }
